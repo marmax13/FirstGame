@@ -1,11 +1,12 @@
 ﻿namespace FirstGame;
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
 
 
 
-        Console.WriteLine($" Yty ");
+
+        Console.WriteLine($" ");
     }
 }
