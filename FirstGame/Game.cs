@@ -4,6 +4,11 @@ public enum Winner
     None,
     Win,
     Louse
+
+        /* Класс Game 
+         Главный класс для работы с Игрой
+         
+         */
 }
 class Game
 {
