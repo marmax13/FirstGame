@@ -29,6 +29,7 @@ class Program
     static void PrintGame()
     {
         Clear();
+        Console.WriteLine($"Игра Виселица");
         WriteLine($"Слово из {_game.Word.Length} букв, осталось ходов: {_game.Counter}");
         WriteLine(_game.Answer);
         string output = "";
