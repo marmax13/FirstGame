@@ -15,6 +15,7 @@ class Game
     public string Word { get; set; }
     public string Answer { get; set; }
     public int Counter { get; set; }
+    public int Age { get; set; }
 
     public Game()
     {
@@ -30,6 +31,7 @@ class Game
 
         Counter = 6;
     }
+    
 
     public void Turn(char letChar)
     {
